@@ -1,11 +1,11 @@
 # auto_register: false
 # frozen_string_literal: true
 
-require "app_prototype/action/base"
+require "playground/action/base"
 
 module Main
   module Action
-    class Base < AppPrototype::Action::Base
+    class Base < Playground::Action::Base
     end
   end
 end

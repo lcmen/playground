@@ -1,10 +1,10 @@
 # auto_register: false
 # frozen_string_literal: true
 
-require "app_prototype/repository"
+require "playground/repository"
 
 module Main
-  class Repository < AppPrototype::Repository
+  class Repository < Playground::Repository
     struct_namespace Entities
   end
 end

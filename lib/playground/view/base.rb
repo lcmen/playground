@@ -2,7 +2,7 @@
 
 require "hanami/view"
 
-module AppPrototype
+module Playground
   module View
     class Base < Hanami::View
     end

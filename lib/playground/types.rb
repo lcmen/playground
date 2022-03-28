@@ -2,7 +2,7 @@
 
 require "dry/types"
 
-module AppPrototype
+module Playground
   module Types
     include Dry.Types
   end
