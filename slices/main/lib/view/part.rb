@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require "app_prototype/view/part"
+require "playground/view/part"
 
 module Main
   module View
-    class Part < AppPrototype::View::Part
+    class Part < Playground::View::Part
     end
   end
 end

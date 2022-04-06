@@ -1,11 +1,11 @@
 # auto_register: false
 # frozen_string_literal: true
 
-require "app_prototype/view/base"
+require "playground/view/base"
 
 module Main
   module View
-    class Base < AppPrototype::View::Base
+    class Base < Playground::View::Base
     end
   end
 end
